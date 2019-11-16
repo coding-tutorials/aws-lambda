@@ -7,4 +7,4 @@ script:
 after_success:
   - pip install --user awscli
   - zip -r lambda.zip *
-  - aws lambda update-function-code --function-name node-lambda --zip-file lambda.zip
+  - aws lambda update-function-code --function-name node-lambda --zip-file fileb://lambda.zip
