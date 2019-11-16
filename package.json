@@ -1,0 +1,19 @@
+{
+  "name": "aws-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-tutorials/aws-lambda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coding-tutorials/aws-lambda/issues"
+  },
+  "homepage": "https://github.com/coding-tutorials/aws-lambda#readme",
+  "dependencies": {
+    "mocha": "^6.2.2"
+  }
+}
